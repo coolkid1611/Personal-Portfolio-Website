@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         typeSpeed: 100,  // Slower typing speed
         backSpeed: 60,   // Slower deleting speed
         backDelay: 500,  // Delay before starting to delete
-        loop: true       // Loops infinitely
+        loop: true,      // Loops infinitely
+        showCursor: false // Removes the blinking cursor
     });
 });
